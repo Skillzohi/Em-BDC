@@ -1,0 +1,268 @@
+/*css for top */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #109752;
+    color: white;
+    cursor: pointer;
+    border-radius: 1px;
+    font-size: 16px;
+    /*  opacity: .6;*/
+    padding-bottom: 5px;
+}
+
+#myBtn:hover {
+    background-color: #0c0d29;
+}
+
+.belabt {
+    border: none !important;
+    padding: 0px !important;
+    color: #464444 !important;
+    font-weight: normal !important;
+}
+
+.belabt:hover {
+    border: none !important;
+    color: #109752 !important;
+    letter-spacing: 3px;
+}
+.more:hover{
+  letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    .bread-con {
+        margin-top: -.4em !important
+    }
+    .irene{
+      display: block !important;
+    }
+    .irene-tee{
+      display: none;
+    }
+
+    .drop {
+        background-image: url("../assets/images/banner-new-02.jpg") !important;
+        height: auto !important;
+        background-size: cover !important;
+        padding-bottom: 50px !important;
+    }
+
+    .drop1 {
+        background-image: url("../assets/images/Batec_Machine.jpg") !important;
+        height: auto !important;
+        background-size: cover !important;
+        padding-bottom: 50px !important;
+    }
+
+    .welcome {
+        margin-top: -3px !important;
+    }
+
+    .values {
+        margin-top: 2em !important;
+    }
+}
+
+
+.divider {
+    border-bottom: 3px solid #fff;
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.whybdc {
+    background-image: url("../assets/images/About us/whybdc/banner-new-02.jpg") !important;
+    height: 500px;
+    background-size: cover;
+}
+
+.drop {
+    background-image: url("../assets/images/About us/banner-new-02.jpg");
+    height: 500px;
+    background-size: cover;
+}
+.drop1 {
+        background-image: url("../assets/images/services/overview/overviewbg.jpg") !important;
+        height: auto !important;
+        background-size: cover !important;
+        padding-bottom: 50px !important;
+    }
+.radiology {
+        background-image: url("../assets/images/services/radiology/radiologyban.jpg") !important;
+        height: auto !important;
+        background-size: cover !important;
+        padding-bottom: 50px !important;
+    }
+.Endoscopy {
+        background-image: url("../assets/images/services/Endoscopy/Endoscopyban.jpg") !important;
+        height: auto !important;
+        background-size: cover !important;
+        padding-bottom: 50px !important;
+    }
+    .Pathology {
+        background-image: url("../assets/images/services/Pathology/Pathologyban.jpg") !important;
+        height: auto !important;
+        background-size: cover !important;
+        padding-bottom: 50px !important;
+    }
+
+    .Cardiology {
+        background-image: url("../assets/images/services/Cardiology/Cardiologyban.jpg") !important;
+        height: auto !important;
+        background-size: cover !important;
+        padding-bottom: 50px !important;
+    }
+
+    .Optometry {
+        background-image: url("../assets/images/services/Optometry/Optometryban.jpg") !important;
+        height: auto !important;
+        background-size: cover !important;
+        padding-bottom: 50px !important;
+    }
+
+     .Wellness {
+        background-image: url("../assets/images/services/Wellness/Wellnessban.jpg") !important;
+        height: auto !important;
+        background-size: cover !important;
+        padding-bottom: 50px !important;
+    }
+
+    .contact {
+        background-image: url("../assets/images/contact/contactbg.jpg") !important;
+        height: auto !important;
+        background-size: cover !important;
+        padding-bottom: 50px !important;
+    }
+
+.health {
+  padding-right: 15px !important;
+  padding-bottom: 10px !important;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #109752;
+  color: white;
+  font-size: 25px;
+  /*border-top-right-radius: 100px;*/
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey{
+  background-color: #eee;
+  font-size: 14px;
+}
+.greyh{
+  background-color: #eee;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+/*.tee{
+  background:#0c2b48 url() no-repeat right bottom
+}
+.contact-header{
+  color: #fff !important;
+  text-transform: uppercase;
+}
+
+.contact-p{
+  color: #fff !important;
+}*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border*/ 
+  border-radius: 4px; /* Rounded borders*/ 
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 15px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #00cfb4;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-left: 13px;
+}
+label{
+  color: #fff;
+  text-transform: capitalize;
+}
+
+/* When moving the mouse over the submit button, add a darker green color *
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.contact-form {
+  border-radius: 5px;
+  background-color: #0c2b48;
+ padding-top: 20px;
+  padding-left: 20px;
+   padding-bottom: 20px;
+    padding-right: 20px;
+} 
+
+./*map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+   /* position:absolute;*/
+}
+  }
